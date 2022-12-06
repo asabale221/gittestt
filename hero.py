@@ -2,6 +2,9 @@ class Hero:
 
     people ='people'
 
+
+class Hero:    
+
     def __init__(self,name,nickname,superpower,health_points):
         self.name = name
         self.nicname = nickname
@@ -24,16 +27,20 @@ class Hero:
 a = Hero('Tony Stark','stark','iron man',100)
 print(a)
 
-def printt(name):
-    print(f'{name} its his name')
-printt('Tony Stark')   
+
+class Hero:
+     
+
+    def printt(name):
+        print(f'{name} its his name')
+    printt('Tony Stark')   
    
 
 
 
-def __len__(self):
-        return len(self) 
-print(len(a.name)) 
+    def __len__(self):
+            return len(self) 
+    print(len(a.name)) 
 
 
      
